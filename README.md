@@ -3,26 +3,29 @@
 ## AIM:
 To write a python program to find the distance two 2 points
 ## ALGORITHM:
-### Step 1: import maths
-### Step 2: x=10,4
-### Step 3: y=6,2
-Substitute the values in the distance formula  ![formula](/formula.jpg)
-### Step 4:distance=math.squt(equation) 
-### Step 5: print
+### Step 1: 
+Import math module to use the built-in functions for calculation
+### Step 2: 
+Create two list for finding a distance between two points
+### Step 3: 
+Substitute the values in the distance formula  ![formula](/formula.JPG)
+### Step 4: 
+Print the value in two decimal points.
+### Step 5: 
+End the program.
 ### PROGRAM:
+```
+#Program to find the distance between two points.
+#Developed by:Pavan Kishore.M
+#RegisterNumber:21002328
 import math
-x=[10,4]
-y=[6,2]
-dist=math.sqrt(((x[1]-x[0])*2)+((y[1]-y[0])*2))
-print("{:.2f}".format(dist))
-  
-
-
+list1=[4,2]
+list2=[10,6]
+d=math.sqrt((list2[0]-list1[0])**2+(list2[1]-list1[1])**2)
+print(round(d,2))
+```
 ### OUTPUT:
-![output](/EEE.png)
-
-
-
+![output](/Screenshot%202023-07-24%20080137.jpg)
 
 ### RESULT:
-it was created successfully.
+Thus the program to find the distance between two points is written and verified using python programming.
