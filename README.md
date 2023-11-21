@@ -25,7 +25,8 @@ d=math.sqrt((list2[0]-list1[0])**2+(list2[1]-list1[1])**2)
 print(round(d,2))
 ```
 ### OUTPUT:
-![output](/Screenshot%202023-07-24%20080137.jpg)
+![Screenshot 2023-07-24 080137](https://github.com/pavankishore-AIDS/DISTANCE-BETWEEN-TWO-POINTS/assets/94154941/2d7da025-00cc-41bf-b7f2-b76e60599d57)
+
 
 ### RESULT:
 Thus the program to find the distance between two points is written and verified using python programming.
